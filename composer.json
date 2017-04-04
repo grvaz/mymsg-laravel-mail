@@ -1,0 +1,20 @@
+{
+    "name": "it-poet/mymsg-laravel-mail",
+    "description": "A Laravel mail driver for mymsg.pw",
+    "require": {
+        "it-poet/mymsg": "0.0.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "it-poet",
+            "email": "grvaz@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ItPoet\\MymsgLaravelMail\\": "src/"
+        }
+    }
+}
